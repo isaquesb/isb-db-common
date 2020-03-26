@@ -1,0 +1,22 @@
+{
+  "name": "isaquesb/isb-db-common",
+  "description": "ISB DB Common",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Isaque de Souza",
+      "role": "developer",
+      "email": "isaquesb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Isb\\DbQuery\\": "src"
+    }
+  },
+  "minimum-stability" : "dev",
+  "prefer-stable" : true
+}
