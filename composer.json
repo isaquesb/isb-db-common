@@ -14,7 +14,7 @@
   },
   "autoload" : {
     "psr-4": {
-      "Isb\\DbQuery\\": "src"
+      "Isb\\DbCommon\\": "src"
     }
   },
   "minimum-stability" : "dev",
