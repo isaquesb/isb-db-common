@@ -59,7 +59,7 @@ class Param
         $this->needJoin = $needJoin;
         if (!count($allowedOperators)) {
             $method = 'for' . ucfirst($this->getType()->toString());
-            $allowedOperators = (new Operator())->$method;
+            $allowedOperators = (new Operator())->$method();
         }
         foreach ($allowedOperators as $operator) {
             $this->allowOperation($operator);

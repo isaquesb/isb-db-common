@@ -64,8 +64,6 @@ class Operator
             self::EQUAL,
             self::START_WITH,
             self::CONTAINS,
-            self::IN,
-            self::NOT_IN,
         ];
     }
 
