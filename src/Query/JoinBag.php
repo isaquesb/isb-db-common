@@ -42,7 +42,7 @@ class JoinBag
             return;
         }
         $this->added[] = $name;
-        call_user_func_array($this->joins[$name], [$query]);
+        call_user_func_array($this->joins[$name], [$query, $this]);
     }
 
     public function hasAdded(string $name)
