@@ -26,8 +26,8 @@ class Type
             self::DECIMAL,
             self::DATE,
             self::DATE_TIME,
-            self::TIME]
-        )) {
+            self::TIME
+        ])) {
             throw new \InvalidArgumentException('Invalid type: ' . $value);
         }
         $this->value = $value;

@@ -192,6 +192,7 @@ class Param
         }
         if ($this->performer) {
             call_user_func_array($this->performer, [$query, $field, $value->values, $valueBag]);
+            return;
         }
         $performer = new Performer();
         $performer->dateInFormat = $this->format ?? $performer->dateInFormat;
