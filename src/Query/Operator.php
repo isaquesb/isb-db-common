@@ -83,12 +83,12 @@ class Operator
 
     public function forInt()
     {
-        $this->forNumeric();
+        return $this->forNumeric();
     }
 
     public function forDecimal()
     {
-        $this->forNumeric();
+        return $this->forNumeric();
     }
 
     public function forDate()
