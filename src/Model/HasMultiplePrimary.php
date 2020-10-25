@@ -9,7 +9,7 @@ trait HasMultiplePrimary
      * @param Builder $query
      * @return Builder
      */
-    protected function setKeysForSaveQuery(Builder $query)
+    protected function setKeysForSaveQuery($query)
     {
         $keys = $this->getKeyName();
         if (!is_array($keys)) {
